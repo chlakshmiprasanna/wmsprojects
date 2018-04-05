@@ -108,8 +108,8 @@ public class Add_Newcustomer {
 		
 		driver = new FirefoxDriver();
 	    driver.get("https://meanwms.p2staging.us/login");
-	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[1]/input")).sendKeys("lakshmi.prasanna@position2.com");
-	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[2]/input")).sendKeys("prasanna1612");
+	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[1]/input")).sendKeys("******");
+	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[2]/input")).sendKeys("******");
 	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/button")).click();
 	    driver.findElement(By.xpath("html/body/div[1]/nav/aside/div[2]/div[2]/ul/li[2]/a")).click();
 	    driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/a")).click();
