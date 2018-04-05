@@ -31,8 +31,8 @@ import java.net.URL;
 
 public class Addcustomer_browserstack {
 	
-	  public static final String USERNAME = "harish56";
-	  public static final String AUTOMATE_KEY = "X75fM7naNkNxJuTqeH6X";
+	  public static final String USERNAME = "*******";
+	  public static final String AUTOMATE_KEY = "********";
 	  public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 	static String Expectedtitle = "WMS Dashboard | p2 users";
@@ -127,8 +127,8 @@ public class Addcustomer_browserstack {
 
 	    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 	    driver.get("https://meanwms.p2staging.us/login");
-	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[1]/input")).sendKeys("lakshmi.prasanna@position2.com");
-	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[2]/input")).sendKeys("prasanna1612");
+	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[1]/input")).sendKeys("**************");
+	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/div[2]/input")).sendKeys("***************");
 	    driver.findElement(By.xpath("html/body/div[1]/div/div[2]/form/button")).click();
 	    driver.findElement(By.xpath("html/body/div[1]/nav/aside/div[2]/div[2]/ul/li[2]/a")).click();
 	    driver.findElement(By.xpath("html/body/div[1]/div/div/div[2]/div/div[1]/a")).click();
